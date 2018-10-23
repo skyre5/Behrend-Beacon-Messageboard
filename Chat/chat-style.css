@@ -1,0 +1,63 @@
+#chat-window
+{
+	position: fixed;
+	top: 90%;
+	right: 0%;
+	height: 50%;
+	width: 33%;
+	border-top: 20px solid #AFEEEE;
+	border-left: 1px solid #AFEEEE;
+    background: linear-gradient(white,white,#AFEEEE);
+}
+#chat-title
+{
+	position: relative;
+	width:100%;
+	height: 10%;
+	text-overflow: ellipsis;
+}
+#chat-title > p
+{
+	display: inline;
+	font-family: Arial;
+	font-weight: bold;
+	font-variant: small-caps;
+	font-stretch: expanded;
+	font-size: 20px;
+	color: #36badb;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	user-select: none;
+	cursor: default;
+}
+#chat-display
+{
+	position: absolute;
+	bottom: 12%;
+	height: 81%;
+	width: 100%;
+	margin-right: 10px;
+	margin-top: 10px;
+	overflow: auto;
+}
+#display-message
+{
+	display: inline;
+}
+#form
+{
+	position: absolute;
+	height: 10%;
+	width: 100%;
+	bottom: 0%;
+}
+#message
+{
+	position: absolute;
+	margin-top: 20px;
+	height: 100%;
+	width: 100%;
+	bottom: 0%;
+	resize: none;
+}
